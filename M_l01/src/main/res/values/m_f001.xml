@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mF_t001">Hi, 我們會根據您輸入的身體數值來進行菜單規劃。</string>
+    <string name="mF_t002">您的身體數值</string>
+    <string name="mF_t003">性別:</string>
+    <string name="mF_t004">身高:</string>
+    <string name="mF_t005">體重:</string>
+    <string name="mF_t006">體脂率:</string>
+    <string name="mF_t007">活動強度:</string>
+    <string name="mF_t008">您的基礎代謝(BMR)為:</string>
+    <string name="mF_t009">您的每日總消耗熱量(TDEE)為:</string>
+    <string name="mF_t0010">您想要增重或減重?</string>
+    <string name="mF_t0011">您每日建議攝取熱量為:</string>
+    <string name="mF_t0012">菜單規劃</string>
+    <string name="mF_t0013">早餐</string>
+    <string name="mF_t0014">午餐</string>
+    <string name="mF_t0015">點心</string>
+    <string name="mF_t0016">晚餐</string>
+    <string name="mF_t0017">菜單規劃</string>
+    <string name="mF_b001">增重</string>
+    <string name="mF_b002">減重</string>
+    <string name="mF_b003">點擊我進行菜單規劃吧!</string>
+    <string name="mF_b004">繼續新增菜單</string>
+    <string name="mF_b005">檢視完整菜單</string>
+    <string name="mF_b007">返回</string>
+    <string name="mF_b008">自定義菜單名稱</string>
+
+
+</resources>

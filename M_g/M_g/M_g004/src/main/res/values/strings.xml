@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">個人健康照護通</string>
+    <string name="m_g004_t003">心肺強化分數</string>
+    <string name="m_g004_t004">活動分數</string>
+    <string name="m_g004_t005">社群分數</string>
+    <string name="m_g004_t006">鍛鍊分數</string>
+    <string name="m_g004_t007">我的鑽石</string>
+    <string name="m_g004_t008">隻狼speedrun新紀錄! 20分39秒</string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/pa01">
+
+    <TextView
+        android:id="@+id/mF_t0012"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/p50"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="@string/mF_t0012"
+        android:textSize="@dimen/fontsize" />
+
+    <TextView
+        android:id="@+id/mF_t0013"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/p20"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="@string/mF_t0013"
+        android:textSize="@dimen/fontsize" />
+
+    <Spinner
+        android:id="@+id/mF_sp001"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/p50"
+        android:gravity="center"
+        android:textSize="@dimen/fontsize"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/mF_t0014"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pa01"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="@string/mF_t0014"
+        android:textSize="@dimen/fontsize" />
+
+    <Spinner
+        android:id="@+id/mF_sp002"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/p50"
+        android:gravity="center"
+        android:textSize="@dimen/fontsize"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/mF_t0015"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pa01"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="@string/mF_t0015"
+        android:textSize="@dimen/fontsize" />
+
+    <Spinner
+        android:id="@+id/mF_sp003"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/p50"
+        android:gravity="center"
+        android:textSize="@dimen/fontsize"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/mF_t0016"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pa01"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="@string/mF_t0016"
+        android:textSize="@dimen/fontsize" />
+
+    <Spinner
+        android:id="@+id/mF_sp004"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pa50"
+        android:gravity="center"
+        android:textSize="@dimen/fontsize"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/mF_b004"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="36dp"
+            android:text="@string/mF_b004"
+            android:textSize="@dimen/fontsize" />
+
+        <Button
+            android:id="@+id/mF_b005"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="37dp"
+            android:text="@string/mF_b005"
+            android:textSize="@dimen/fontsize" />
+
+    </RelativeLayout>
+
+</LinearLayout>

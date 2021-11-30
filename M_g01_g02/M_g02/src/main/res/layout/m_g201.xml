@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".M_g201">
+
+    <TextView
+        android:id="@+id/mG_t201"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center_horizontal"
+        android:text="@string/mG_t201"
+        android:textSize="@dimen/fontsize" />
+
+    <TextView
+        android:id="@+id/mG_t202"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mG_t201"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/mG_t202"
+        android:textSize="@dimen/fontsize" />
+
+    <TextView
+        android:id="@+id/mG_t203"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mG_t201"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toEndOf="@+id/mG_t202"
+        android:text="xxx大卡"
+        android:textSize="@dimen/fontsize" />
+
+    <TextView
+        android:id="@+id/mG_t204"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mG_t202"
+        android:layout_alignStart="@+id/mG_t202"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toStartOf="@+id/mG_t205"
+        android:gravity="end"
+        android:text="@string/mG_t204"
+        android:textSize="@dimen/fontsize" />
+
+    <TextView
+        android:id="@+id/mG_t205"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mG_t203"
+        android:layout_alignEnd="@+id/mG_t203"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/mG_t202"
+        android:text="xx心跳數/分鐘"
+        android:textSize="@dimen/fontsize" />
+
+    <TextView
+        android:id="@+id/mG_t206"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mG_t204"
+        android:layout_alignStart="@+id/mG_t204"
+        android:layout_alignEnd="@+id/mG_t204"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:gravity="end"
+        android:text="@string/mG_t206"
+        android:textSize="@dimen/fontsize" />
+
+    <TextView
+        android:id="@+id/mG_t207"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mG_t205"
+        android:layout_alignEnd="@+id/mG_t203"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/mG_t206"
+        android:text="xx時/yy分"
+        android:textSize="@dimen/fontsize" />
+
+    <TextView
+        android:id="@+id/mG_t208"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mG_t201"
+        android:layout_alignStart="@+id/mG_t206"
+        android:layout_alignEnd="@+id/mG_t204"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="0dp"
+        android:gravity="end"
+        android:text="@string/mG_t208"
+        android:textSize="@dimen/fontsize" />
+
+    <TextView
+        android:id="@+id/mG_t209"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mG_t208"
+        android:layout_alignEnd="@+id/mG_t207"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/mG_t208"
+        android:text="xx時/yy分運動時數"
+        android:textSize="@dimen/fontsize" />
+
+    <TextView
+        android:id="@+id/mG_t210"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mG_t201"
+        android:layout_marginTop="250dp"
+        android:background="@color/Teal"
+        android:gravity="center_horizontal"
+        android:text="@string/mG_t210"
+        android:textColor="@color/White"
+        android:textSize="@dimen/fontsize" />
+
+    <TextView
+        android:id="@+id/mG_t211"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mG_t210"
+        android:layout_marginTop="0dp"
+        android:text="本次訓練心率平均維持在120bpm，減脂效果佳。"
+        android:textSize="@dimen/fontsize" />
+
+    <TextView
+        android:id="@+id/mG_t212"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mG_t211"
+        android:layout_marginTop="0dp"
+        android:text="本次訓練時間長度不足30分鐘，再努力一下會使身體代謝更有效率喔。"
+        android:textSize="@dimen/fontsize" />
+
+    <TextView
+        android:id="@+id/mG_t213"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/name3"
+        android:textSize="@dimen/fontsize" />
+
+</RelativeLayout>

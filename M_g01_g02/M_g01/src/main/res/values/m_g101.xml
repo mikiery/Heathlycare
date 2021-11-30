@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mG_t101">動作內容:</string >
+    <string name="mG_t102">重量:</string >
+    <string name="mG_t103">組數:</string >
+    <string name="mG_t104">休息時間</string>
+    <string name="mG_b101">開始健身</string>
+    <string name="mG_t106">累計運動時間</string>
+    <string name="mG_b102">組間休息</string>
+    <string name="mG_t107">休息時間倒數</string>
+    <string name="mG_e101">請輸入重量</string>
+    <string name="mG_e102">請輸入組數</string>
+    <string name="mG_t105">請設定休息時間</string>
+    <string name="mG_b103">運動結束，觀看成果</string>
+    <string name="mG_s101">訓練種類選擇</string>
+    <string-array name="mG_s101">
+        <item>二頭彎舉</item>
+        <item>三頭下拉</item>
+        <item>槓鈴深蹲</item>
+    </string-array>
+</resources>

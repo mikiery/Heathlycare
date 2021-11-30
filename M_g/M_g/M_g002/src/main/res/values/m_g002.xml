@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m_g002_t001">你想與誰分享呢!</string>
+    <string-array name="m_g002_a001">
+        <item>僅限朋友</item>
+        <item>公開</item>
+    </string-array>
+    <string name="m_g002_t006">有什麼好動的? 去瞧瞧!</string>
+    <string name="m_g002_b001">插入圖片/相片</string>
+    <string name="m_g002_b002">標註好友</string>
+</resources>

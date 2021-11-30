@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/p10"
+    tools:context=".M_b001">
+
+    <TextView
+        android:id="@+id/mB_t001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Navy"
+        android:gravity="center_horizontal"
+        android:text="@string/mB_t001"
+        android:textColor="@color/White"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/mB_b001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mB_t001"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/mB_t002"
+        android:text="@string/mB_b001"
+        android:textColor="@color/Navy"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <RadioButton
+        android:id="@+id/mB_b002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mB_b001"
+        android:layout_alignStart="@+id/mB_b001"
+        android:layout_marginTop="@dimen/p20"
+        android:text="@string/mB_b002"
+        android:textColor="@color/Navy"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/mB_t002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mB_t001"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/mB_t002"
+        android:textColor="@color/Navy"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mB_t003"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mB_b002"
+        android:layout_alignStart="@+id/mB_t002"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/mB_t003"
+        android:textColor="@color/Navy"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/mB_e001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mB_b002"
+        android:layout_alignStart="@+id/mB_b002"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:gravity="end"
+        android:hint="@string/hint01"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:text="@string/mB_e001"
+        android:textColor="@color/Navy"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/mB_t004"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mB_t003"
+        android:layout_alignStart="@+id/mB_t003"
+        android:layout_marginTop="37dp"
+        android:text="@string/mB_t004"
+        android:textColor="@color/Navy"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/mB_e002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mB_e001"
+        android:layout_alignStart="@+id/mB_e001"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="21dp"
+        android:gravity="end"
+        android:hint="@string/mB_e002"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:text="@string/mB_e002"
+        android:textColor="@color/Navy"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/mB_t005"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mB_t004"
+        android:layout_alignStart="@+id/mB_t003"
+        android:layout_marginTop="44dp"
+        android:text="@string/mB_t005"
+        android:textColor="@color/Navy"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/mB_e003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mB_e002"
+        android:layout_alignStart="@+id/mB_e002"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="@dimen/p20"
+        android:gravity="end"
+        android:hint="@string/hint01"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:text="@string/mB_e003"
+        android:textColor="@color/Navy"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/mB_b003"
+        android:layout_width="@dimen/p200"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/p100"
+        android:layout_marginBottom="150dp"
+        android:background="@color/teal_200"
+        android:text="@string/mB_b003"
+        android:textColor="@color/Red"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/name5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/p10"
+        android:layout_marginBottom="@dimen/p10"
+        android:text="@string/name5"
+        android:textColor="@color/Navy"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold" />
+
+</RelativeLayout>

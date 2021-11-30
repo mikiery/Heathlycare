@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mB_t001">健康狀態</string>
+    <string name="mB_t002">建議:數值正常，請繼續保持!!或加入【營養與健身管家】協助您維持健康。</string>
+    <string name="mB_t003">建議:量測數值xxx超標，請加入【營養與健身管家】。</string>
+    <string name="mB_t004">建議:量測數值xx超標太多囉!! ，且有…..症狀，請速就醫，可按【救護車派遣】協助您就醫!!。</string>
+<!--    <string name="mB_b001">高</string>-->
+<!--    <string name="mB_b002">中</string>-->
+<!--    <string name="mB_b003">低</string>-->
+    <string name="mB_b001">加入營養與健身管家</string>
+    <string name="mB_b002">【救護車派遣】</string>
+
+</resources>

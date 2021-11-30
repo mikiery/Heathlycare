@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m_g003_t002">從事哪類型活動呢?</string>
+    <string-array name="m_g003_a001">
+        <item>戶外活動</item>
+        <item>室內活動</item>
+    </string-array>
+</resources>

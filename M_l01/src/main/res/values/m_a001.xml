@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="m_a001_s001">
+        <item>最近醫院</item>
+        <item>最近私人救護車點</item>
+        <item>119最近點</item>
+    </string-array>
+    <string name="m_a001_t001">救護車派遣</string>
+    <string name="m_a001_t002">請選擇/醫院/私人/119</string>
+    <string name="m_a001_t003">目前所在位置</string>
+    <string name="m_a001_t004">台中市西屯區工業區一路100號</string>
+    <string name="m_a001_t005"> 最近點救護車資訊</string>
+    <string name="m_a001_t006"> 名稱:澄清綜合醫院中港院區
+                                                     地址:台中市西屯區台灣大道四段966號
+                                                     電號:04-24631166</string>
+    <string name="m_a001_b001">Button開分頁顯示google地圖</string>
+
+
+</resources>

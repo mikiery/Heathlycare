@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mG_t101"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/mG_t101"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/fontsize" />
+
+        <Spinner
+            android:id="@+id/mG_s101"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:entries="@array/mG_s101"
+            android:prompt="@string/mG_s101" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/mG_t102"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/mG_t102"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/fontsize" />
+
+        <EditText
+            android:id="@+id/mG_e101"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/mG_e101"
+            android:inputType="number"
+            android:textSize="@dimen/fontsize" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/mG_t103"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/mG_t103"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/fontsize" />
+
+        <EditText
+            android:id="@+id/mG_e102"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="@string/mG_e102"
+            android:textColor="@color/Gray"
+            android:textSize="@dimen/fontsize" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/mG_t104"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/mG_t104"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/fontsize" />
+
+        <TextView
+            android:id="@+id/mG_t105"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mG_t105"
+            android:textColor="@color/Gray"
+            android:textSize="@dimen/fontsize" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/mG_b101"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Teal"
+        android:text="@string/mG_b101"
+        android:textColor="@color/White"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mG_t"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mG_t106"
+        android:textSize="@dimen/fontsize" />
+
+    <Button
+        android:id="@+id/mG_b102"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Teal"
+        android:text="@string/mG_b102"
+        android:textColor="@color/White"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mG_t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mG_t107"
+        android:textSize="@dimen/fontsize" />
+
+    <Button
+        android:id="@+id/mG_b103"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Teal"
+        android:text="@string/mG_b103"
+        android:textColor="@color/White"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mG_t108"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:gravity="end"
+        android:text="@string/name3"
+        android:textColor="@color/Navy"
+        android:textSize="@dimen/fontsize" />
+
+</LinearLayout>

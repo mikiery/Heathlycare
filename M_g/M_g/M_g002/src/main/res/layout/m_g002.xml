@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/p10"
+    tools:context=".M_g002">
+
+    <ImageView
+        android:id="@+id/m_g002_im01"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/Margins"
+        android:layout_marginTop="@dimen/Spacingl"
+        app:srcCompat="@drawable/unname2" />
+
+    <ImageView
+        android:id="@+id/m_g002_im02"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/Spacing"
+        android:layout_marginBottom="@dimen/Spacingl"
+        app:srcCompat="@drawable/logosm" />
+
+    <Spinner
+        android:id="@+id/m_g002_s01"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/m_g002_im01"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/Spacing"
+        android:background="@android:drawable/btn_dropdown"
+        android:entries="@array/m_g002_a001"
+        android:prompt="@string/m_g002_t001"
+        android:spinnerMode="dialog" />
+
+    <EditText
+        android:id="@+id/m_g002_em01"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m_g002_im01"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/p50"
+        android:layout_marginEnd="@dimen/Spacing"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/m_g002_e001"
+        android:inputType="textMultiLine"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/m_g002_b01"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m_g002_em01"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/p50"
+        android:layout_marginEnd="@dimen/Spacing"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/m_g002_b001" />
+
+    <Button
+        android:id="@+id/m_g002_b02"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m_g002_b01"
+        android:layout_alignEnd="@+id/m_g002_b01"
+        android:layout_marginTop="@dimen/Spacing"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/m_g002_b002" />
+
+    <Button
+        android:id="@+id/m_g002_b04"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m_g002_b02"
+        android:layout_alignEnd="@+id/m_g002_b02"
+        android:layout_marginTop="@dimen/Spacing"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/m_g002_b003" />
+
+    <Button
+        android:id="@+id/m_g002_b05"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m_g002_b04"
+        android:layout_alignEnd="@+id/m_g002_b04"
+        android:layout_marginTop="@dimen/Spacing"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/m_g002_b004" />
+
+    <Button
+        android:id="@+id/m_g002_b07"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/m_g002_im02"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/Spacing"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/m_g002_t006"
+        android:textSize="@dimen/fontsize_s" />
+
+</RelativeLayout>

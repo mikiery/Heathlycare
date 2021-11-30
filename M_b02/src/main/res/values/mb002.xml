@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+//------------------Mb第一頁----------------->
+    <string name="mB_t001">個人測量</string>
+    <string name="mB_t002">姓別:</string>
+    <string name="mB_t003">年齡:</string>
+    <string name="mB_t004">身高:</string>
+    <string name="mB_t005">體重:</string>
+    <string name="mB_b001">男</string>
+    <string name="mB_b002">女</string>
+    <string name="mB_e001">歲</string>
+    <string name="mB_e002">公分</string>
+    <string name="mB_e003">公斤</string>
+    <string name="hint01">請輸入</string>
+    <string name="mB_b003">繼續</string>-->
+
+
+    //------------------Mb第二頁----------------->
+    <string name="mB_t006">血糖:</string>
+    <string name="mB_t007">血壓:</string>
+    <string name="mB_t008">心率:</string>
+    <string name="mB_t009">血氧濃度:</string>
+    <string name="mB_e004">mg/dL</string>
+    <string name="mB_e005">mmHg</string>
+    <string name="mB_e006">下/分</string>
+    <string name="mB_e007">%</string>
+    <string name="hint02">空腹血糖</string>
+    <string name="hint03">收縮壓</string>
+    <string name="hint04">舒張壓</string>
+
+
+    //------------------Mb第三頁----------------->
+    <string name="mB_t010">個人測量</string>
+    <string name="mB_t011">活動強度</string>
+    <string name="mB_b004">高</string>
+    <string name="mB_b005">中</string>
+    <string name="mB_b006">低</string>
+    <string name="mB_b007">確定</string>
+
+
+    //------------------Mb第四頁----------------->
+    <string name="mB_t012">健康狀態</string>
+    <string name="mB_t013">建議:數值正常，請繼續保持!!或加入【營養與健身管家】協助您維持健康。</string>
+    <string name="mB_t014">建議:量測數值xxx超標，請加入【營養與健身管家】。</string>
+    <string name="mB_t015">建議:量測數值xx超標太多囉!! ，且有…..症狀，請速就醫，可按【救護車派遣】協助您就醫!!。</string>
+    <string name="mB_b008">加入營養與健身管家</string>
+    <string name="mB_b009">【救護車派遣】</string>
+
+</resources>

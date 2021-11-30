@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rgp"
+    tools:context=".M_g999">
+
+    <Button
+        android:id="@+id/m_g999_b01"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/p50"
+        android:layout_marginTop="@dimen/top"
+        android:background="@drawable/blbu" />
+
+    <Button
+        android:id="@+id/m_g999_b02"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignTop="@+id/m_g999_b01"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/p50"
+        android:background="@drawable/grbu" />
+
+    <Button
+        android:id="@+id/m_g999_b03"
+        android:layout_width="135dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/m_g999_b01"
+        android:layout_alignStart="@+id/m_g999_b01"
+        android:layout_marginTop="@dimen/p20"
+        android:background="@drawable/orbu" />
+
+    <Button
+        android:id="@+id/m_g999_b04"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_below="@+id/m_g999_b02"
+        android:layout_alignStart="@+id/m_g999_b02"
+        android:layout_marginTop="@dimen/pa25"
+        android:background="@drawable/trbu" />
+
+    <Button
+        android:id="@+id/m_g999_b05"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/m_g999_b03"
+        android:layout_alignStart="@+id/m_g999_b03"
+        android:layout_marginTop="@dimen/p20"
+        android:background="@drawable/nredbu" />
+
+    <Button
+        android:id="@+id/m_g999_b06"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_alignTop="@+id/m_g999_b05"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/p50"
+        android:background="@drawable/nlbbu" />
+
+</RelativeLayout>

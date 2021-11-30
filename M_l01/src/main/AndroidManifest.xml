@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tw.healthycare">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_m_l"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_m_l_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".M_l001"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WelcomeActivity"></activity>
+        <activity android:name=".M_g999"></activity>
+        <activity android:name=".M_g001"></activity>
+        <activity android:name=".M_g002"></activity>
+        <activity android:name=".M_g003"></activity>
+        <activity android:name=".M_g004"></activity>
+        <activity android:name=".M_g005"></activity>
+        <activity android:name=".M_a001"></activity>
+        <activity android:name=".M_a002"></activity>
+        <activity android:name=".M_f001"></activity>
+        <activity android:name=".M_f002"></activity>
+        <activity android:name=".M_f003"></activity>
+        <activity android:name=".M_g101"></activity>
+        <activity android:name=".M_g201"></activity>
+        <activity android:name=".M_b00"></activity>
+        <activity android:name=".M_b002"></activity>
+        <activity android:name=".M_b003"></activity>
+        <activity android:name=".M_b004a"></activity>
+        <activity android:name=".M_b004b"></activity>
+        <activity android:name=".M_b004c"></activity>
+
+    </application>
+
+</manifest>

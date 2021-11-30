@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/p10"
+    tools:context=".M_g005">
+
+    <ImageView
+        android:id="@+id/m_g005_im01"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/Spacing"
+        android:layout_marginTop="@dimen/Margins"
+        app:srcCompat="@drawable/unname2" />
+
+    <TextView
+        android:id="@+id/m_g005_t01"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/m_g005_im01"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/Spacing"
+        android:gravity="center"
+        android:text="@string/m_g005_t001"
+        android:textSize="@dimen/fontsize" />
+
+    <Button
+        android:id="@+id/m_g005_b01"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m_g005_im01"
+        android:layout_alignStart="@+id/m_g005_im01"
+        android:layout_marginTop="@dimen/Spacing"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/m_g005_b001" />
+
+    <Button
+        android:id="@+id/m_g005_b02"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/m_g005_b01"
+        android:layout_marginStart="@dimen/Spacingl"
+        android:layout_toEndOf="@+id/m_g005_b01"
+        android:text="@string/m_g005_b002" />
+
+    <ScrollView
+        android:layout_width="360dp"
+        android:layout_height="400dp"
+        android:layout_below="@+id/m_g005_b01"
+        android:layout_alignStart="@+id/m_g005_b01"
+        android:paddingBottom="@dimen/Spacingl"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Silver"
+            android:paddingBottom="@dimen/Spacingl">
+
+            <ImageView
+                android:id="@+id/m_g005_im02"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/Margins"
+                android:layout_marginTop="@dimen/Spacing"
+                app:srcCompat="@drawable/unname3" />
+
+            <ImageView
+                android:id="@+id/m_g005_im03"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignTop="@+id/m_g005_im02"
+                android:layout_marginStart="@dimen/p20"
+                android:layout_toEndOf="@+id/m_g005_im02"
+                app:srcCompat="@drawable/unname4" />
+
+            <ImageView
+                android:id="@+id/m_g005_im04"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignTop="@+id/m_g005_im03"
+                android:layout_marginStart="@dimen/p20"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/m_g005_im03"
+                app:srcCompat="@drawable/unnamed" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

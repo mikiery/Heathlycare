@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mB_t001">個人測量</string>
+    <string name="mB_t002">姓名:</string>
+    <string name="mB_t003">年齡:</string>
+    <string name="mB_t004">身高:</string>
+    <string name="mB_t005">體重:</string>
+    <string name="mB_b001">男</string>
+    <string name="mB_b002">女</string>
+    <string name="mB_e001">歲</string>
+    <string name="mB_e002">公分</string>
+    <string name="mB_e003">公斤</string>
+    <string name="hint01">請輸入</string>
+    <string name="mB_b003">繼續</string>-->
+<!--    <string name="mB_t010">血糖:</string>-->
+<!--    <string name="hint02">空腹血糖</string>-->
+<!--    <string name="mB_t011">mg/dL</string>-->
+<!--    <string name="mB_t012">血壓:</string>-->
+<!--    <string name="hint03">收縮壓</string>-->
+<!--    <string name="hint04">舒張壓</string>-->
+<!--    <string name="mB_t013">mmHg</string>-->
+<!--    <string name="mB_t014">心率</string>-->
+<!--    <string name="mB_t015">下/分</string>-->
+<!--    <string name="mB_t016">血氧濃度:</string>-->
+<!--    <string name="mB_t017">%</string>-->
+    <!--    <string name="mB_b003">繼續</string>-->
+    <!--    <string name="mB_b003">繼續</string>-->
+</resources>

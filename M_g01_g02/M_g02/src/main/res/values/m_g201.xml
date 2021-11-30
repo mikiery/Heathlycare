@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mG_t201">訓練成果</string>
+    <string name="mG_t202">卡路里燃燒量:</string>
+    <string name="mG_t204">心率:</string>
+    <string name="mG_t206">本次運動時間:</string>
+    <string name="mG_t208">您已累積:</string>
+    <string name="mG_t210">本次訓練分析及提醒</string>
+</resources>

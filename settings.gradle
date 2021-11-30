@@ -1,0 +1,17 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+      //jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "Objact"
+
+include ':M_b01'
+include 'M_g01'
+include 'M_b03'
+include 'M_b04'
+include 'M_b02'
+include 'M_b00'
+include 'M_l01'

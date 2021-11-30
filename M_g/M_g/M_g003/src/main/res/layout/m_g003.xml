@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/p10"
+    tools:context=".M_g003" >
+
+    <ImageView
+        android:id="@+id/m_g003_im01"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/Margins"
+        android:layout_marginTop="@dimen/Spacingl"
+        app:srcCompat="@drawable/logosm" />
+
+    <ImageView
+        android:id="@+id/m_g003_im02"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/Spacing"
+        android:layout_marginBottom="@dimen/Spacingl"
+        app:srcCompat="@drawable/logosm" />
+
+    <ImageView
+        android:id="@+id/m_g003_im03"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/m_g003_im01"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/Margins"
+        android:layout_marginEnd="@dimen/p20"
+        app:srcCompat="@drawable/curator" />
+
+    <Spinner
+        android:id="@+id/m_g003_s01"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/m_g003_im01"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/Spacing"
+        android:background="@android:drawable/btn_dropdown"
+        android:entries="@array/m_g003_a001"
+        android:prompt="@string/m_g003_t002"
+        android:spinnerMode="dialog" />
+
+    <TextView
+        android:id="@+id/m_g003_t01"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m_g003_im03"
+        android:layout_alignEnd="@+id/m_g003_im03"
+        android:layout_marginTop="@dimen/p20"
+        android:text="@string/m_g003_t001" />
+
+    <Button
+        android:id="@+id/m_g003_b01"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/m_g003_t01"
+        android:layout_alignEnd="@+id/m_g003_t01"
+        android:layout_marginTop="@dimen/Spacing"
+        android:background="@drawable/love"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/m_g003_b02"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m_g003_t01"
+        android:layout_alignEnd="@+id/m_g003_t01"
+        android:layout_marginTop="@dimen/p50"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/m_g003_b001" />
+
+    <Button
+        android:id="@+id/m_g003_b03"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/m_g003_im02"
+        android:layout_alignEnd="@+id/m_g003_b02"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/m_g003_t003"
+        android:textSize="@dimen/fontsize_s" />
+</RelativeLayout>
